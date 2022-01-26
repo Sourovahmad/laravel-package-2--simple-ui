@@ -1,0 +1,19 @@
+{
+    "name": "sourovahmad/simpleui",
+    "description": "this package will generate a simple and super cool admin dashboard",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sourovahmad\\simpleui\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sourovahmad",
+            "email": "mdsourovahmad19@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
