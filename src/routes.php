@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Sourovahmad\simpleui\controller\simpleUiController as ControllerSimpleUiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('simpleui', function ()
-{
-    return "pacage workd";
-});
+// Route::view('sourovahmad-simpleui-', [ControllerSimpleUiController::class, 'index']);
 
 
