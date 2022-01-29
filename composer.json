@@ -1,6 +1,8 @@
 {
     "name": "sourovahmad/simpleui",
-    "description": "this package will generate a simple and super cool admin dashboard",
+    "description": "Generate a dashboard in 2 minutes",
+    "keywords": ["laravel ui package", "laravel simple ui", "simple ui laravel", "laravel admin dashboard", "laravel admin dashboard package", "admin dashboard laravel", "admin dashboard", "laravel dashboard package","laravel dashboard package","laravel dashboard package","laravel dashboard package","laravel dashboard package","laravel dashboard package","laravel dashboard package","laravel dashboard package","laravel dashboard package","laravel dashboard package"
+    ],
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -15,5 +17,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sourovahmad\\simpleui\\SimpleUiServiceProvider"
+            ]
+        }
+    }
 }
